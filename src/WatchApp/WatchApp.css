@@ -1,0 +1,33 @@
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer-select {
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: 2px solid #00796b;
+    border-radius: 8px;
+    background-color: #e0f2f1;
+    color: #004d40;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    outline: none;
+    cursor: pointer;
+}
+
+.timer-select:focus {
+    border-color: #004d40;
+    box-shadow: 0 0 5px rgba(0, 77, 64, 0.5);
+}
+
+.timer-select option {
+    padding: 10px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.timer-select option:hover {
+    background-color: #c8e6c9;
+}
